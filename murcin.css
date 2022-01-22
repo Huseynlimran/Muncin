@@ -8,13 +8,12 @@
   color: black;
   scroll-behavior: smooth;
 }
-html {
+body ,html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 body {
   background: #cacaca;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 nav .navbar-nav a {
   background-color: transparent;
